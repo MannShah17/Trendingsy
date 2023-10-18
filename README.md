@@ -30,8 +30,7 @@ To start using the Trendingsy project, you will first need to clone the GitHub r
 Open a terminal on your local machine.
 
 Run the following command to clone the repository:
-git clone https://github.com/your-username/trendingsy.git
---> Replace your-username with your GitHub username.
+git clone https://github.com/MannShah17/Trendingsy.git
 
 3.2 Setting Up the Project
 Navigate to the project directory:
