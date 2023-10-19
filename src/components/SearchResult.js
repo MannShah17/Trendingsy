@@ -1,8 +1,8 @@
-import axios from "axios";
-import { Link, useParams } from "react-router-dom";
-import { projectId } from "../utilities/constants";
-import { useEffect, useState } from "react";
-import Product from "./Product";
+import axios from 'axios';
+import { Link, useParams } from 'react-router-dom';
+import { projectId } from '../utilities/constants';
+import { useEffect, useState } from 'react';
+import Product from './Product';
 
 const SearchResult = () => {
   const { search } = useParams();
@@ -12,7 +12,7 @@ const SearchResult = () => {
     const fetchData = async () => {
       console.log(search);
       const response = await axios.get(
-        `https://academics.newtonschool.co/api/v1/ecommerce/clothes/products?search={"name":"${search}"}`,
+        `https://academics.newtonschool.co/api/v1/ecommerce/clothes/products?limit=100?search={"name":"${search}"}`,
         {
           headers: {
             projectId: projectId,
@@ -28,7 +28,7 @@ const SearchResult = () => {
   return (
     <div>
       {searchResult.map((search) => (
-        <Link key={search._id} to={"/productinfo/" + search._id}>
+        <Link key={search._id} to={'/productinfo/' + search._id}>
           <Product product={search} />
         </Link>
       ))}

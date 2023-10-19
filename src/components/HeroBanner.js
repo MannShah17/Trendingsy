@@ -16,14 +16,18 @@ const HeroBanner = () => {
     { tag: 'best seller', title: 'BEST SELLER' },
   ];
   const slides = [
-    'https://images.bewakoof.com/t1080/men-get-schwifty-oversized-graphic-printed-t-shirt-605045-1693306313-1.jpg',
-    'https://images.bewakoof.com/t1080/men-s-beige-mickey-graphic-printed-oversizedt-shirt-516646-1667912529-1.jpg',
+    // 'https://images.bewakoof.com/t1080/men-get-schwifty-oversized-graphic-printed-t-shirt-605045-1693306313-1.jpg',
+    // 'https://images.bewakoof.com/t1080/men-s-beige-mickey-graphic-printed-oversizedt-shirt-516646-1667912529-1.jpg',
 
     'https://images.bewakoof.com/t1080/men-s-black-skater-donald-graphic-printed-oversized-t-shirt-602561-1688380293-1.jpg',
 
     'https://images.bewakoof.com/t1080/men-stoned-rick-morty-oversized-graphic-printed-t-shirt-605102-1693306351-1.jpg',
 
     'https://images.bewakoof.com/t1080/men-s-black-itachi-uchiha-genjutsu-graphic-printed-oversized-t-shirt-605541-1690552600-1.jpg',
+
+    'https://i.ibb.co/qCVVxS4/Discount-1.jpg',
+
+    'https://i.ibb.co/CPtLk4W/Discount-2.jpg',
   ];
 
   return (

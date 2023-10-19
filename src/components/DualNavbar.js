@@ -16,6 +16,7 @@ import SearchResult from './SearchResult';
 
 const DualNavbar = () => {
   const [activeCategory, setActiveCategory] = useState('men');
+  // const [selectedGender, setSelectedGender] = useState("Men");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [search, setSearch] = useState('');
   const dispatch = useDispatch();
